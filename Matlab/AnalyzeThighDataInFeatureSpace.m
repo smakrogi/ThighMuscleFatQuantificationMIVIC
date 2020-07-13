@@ -6,8 +6,8 @@ function [tissueIdx, OutDataMatrix, DistributionModels] = ...
 % samples.
 
 % Retrieve path to stpr toolbox.
-STPR_PATH = getenv('STPR_PATH');
-
+% STPR_PATH = getenv('STPR_PATH');
+STPR_PATH = 'C:\Users\smakrogiannis\Documents\Codes\src\thalesrepos\m-files\stprtool';
 % DistanceLearningMethods = {'', 'PCA', 'ISOMAP', 'Laplacian', 'LLE', 'LTSA', 'MDS'};
 % distancemetriclearningMethod = 'PCA';
 distancemetriclearningMethod = ExperimentInfo.DistanceLearningMethod;
